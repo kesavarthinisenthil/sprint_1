@@ -8,10 +8,13 @@ from src.logger import LoggerManager
 class DataLoader:
     """Load data from CSV, JSON, and TXT files."""
 
+    def __init__(self):
+        """Initialize DataLoader with a logger."""
+        self.logger = LoggerManager.get_logger()
+
     def load(self,file_path: str)-> Any:
         """Load data from the given path"""
-        logger = LoggerManager.get_logger()
-        logger.info(f"Loading file: {file_path}")
+        self.logger.info(f"Loading file: {file_path}")
         path = Path(file_path)
 
         if not path.exists():
@@ -28,7 +31,7 @@ class DataLoader:
                 with open(path, "r", newline="", encoding="utf-8") as file:
                     data = list(csv.DictReader(file))
 
-                logger.info(f"File loaded successfully: {file_path}")
+                self.logger.info(f"File loaded successfully: {file_path}")
                 return data
 
             except OSError as error:
@@ -39,7 +42,7 @@ class DataLoader:
                 with open(path, "r", encoding="utf-8") as file:
                     data = json.load(file)
 
-                logger.info(f"File loaded successfully: {file_path}")
+                self.logger.info(f"File loaded successfully: {file_path}")
                 return data
 
             except (OSError, json.JSONDecodeError) as error:
@@ -50,7 +53,7 @@ class DataLoader:
                 with open(path, "r", encoding="utf-8") as file:
                     data = file.read()
 
-                logger.info(f"File loaded successfully: {file_path}")
+                self.logger.info(f"File loaded successfully: {file_path}")
                 return data
 
             except OSError as error:
