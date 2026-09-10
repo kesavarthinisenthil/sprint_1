@@ -1,0 +1,37 @@
+2026-09-09 18:45:03,229 - INFO - Application started
+2026-09-09 18:45:03,229 - WARNING - This is a warning
+2026-09-09 18:45:03,229 - ERROR - This is an error
+2026-09-09 18:52:29,972 - INFO - Loading file: data/sample.txt
+2026-09-09 18:52:29,974 - INFO - File loaded successfully: data/sample.txt
+2026-09-09 18:57:37,016 - INFO - Loading file: data/sample.csv
+2026-09-09 18:57:37,017 - INFO - File loaded successfully: data/sample.csv
+2026-09-09 18:57:45,722 - INFO - Loading file: data/sample.json
+2026-09-09 18:57:45,740 - INFO - File loaded successfully: data/sample.json
+2026-09-09 18:57:53,948 - INFO - Loading file: data/sample.txt
+2026-09-09 18:57:53,949 - INFO - File loaded successfully: data/sample.txt
+2026-09-10 08:46:15,276 - INFO - Writing file: outputs/test.json
+2026-09-10 08:46:15,278 - INFO - File written successfully: outputs/test.json
+2026-09-10 08:51:29,215 - INFO - Writing file: outputs/test.json
+2026-09-10 08:51:29,217 - INFO - File written successfully: outputs/test.json
+2026-09-10 08:51:29,217 - INFO - DataWriter operation completed.
+2026-09-10 08:54:05,768 - INFO - Writing file: outputs/test.pdf
+2026-09-10 08:56:56,000 - INFO - Writing file: outputs/test.json
+2026-09-10 08:56:56,003 - INFO - File written successfully: outputs/test.json
+2026-09-10 08:56:56,003 - INFO - DataWriter operation completed.
+2026-09-10 08:59:04,498 - INFO - Writing file: outputs/test.json
+2026-09-10 08:59:04,500 - INFO - File written successfully: outputs/test.json
+2026-09-10 08:59:04,500 - INFO - DataWriter operation completed.
+2026-09-10 08:59:04,500 - INFO - Writing file: outputs/test.csv
+2026-09-10 08:59:04,502 - INFO - File written successfully: outputs/test.csv
+2026-09-10 08:59:04,502 - INFO - DataWriter operation completed.
+2026-09-10 08:59:04,502 - INFO - Writing file: outputs/test.txt
+2026-09-10 08:59:04,504 - INFO - File written successfully: outputs/test.txt
+2026-09-10 08:59:04,504 - INFO - DataWriter operation completed.
+2026-09-10 08:59:04,504 - INFO - Writing file: outputs/test.pkl
+2026-09-10 08:59:04,506 - INFO - File written successfully: outputs/test.pkl
+2026-09-10 08:59:04,506 - INFO - DataWriter operation completed.
+2026-09-10 09:00:43,519 - INFO - Loading file: data/sample.json
+2026-09-10 09:00:43,548 - INFO - File loaded successfully: data/sample.json
+2026-09-10 09:00:43,548 - INFO - Writing file: outputs/result.json
+2026-09-10 09:00:43,550 - INFO - File written successfully: outputs/result.json
+2026-09-10 09:00:43,550 - INFO - DataWriter operation completed.
