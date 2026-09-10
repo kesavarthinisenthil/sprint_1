@@ -35,3 +35,36 @@
 2026-09-10 09:00:43,548 - INFO - Writing file: outputs/result.json
 2026-09-10 09:00:43,550 - INFO - File written successfully: outputs/result.json
 2026-09-10 09:00:43,550 - INFO - DataWriter operation completed.
+2026-09-10 11:36:13,100 - INFO - Attempting to connect to the database.
+2026-09-10 11:37:47,715 - INFO - Attempting to connect to the database.
+2026-09-10 11:37:47,958 - INFO - Database connection established successfully.
+2026-09-10 11:41:05,385 - INFO - Attempting to connect to the database.
+2026-09-10 11:41:05,506 - INFO - Database connection established successfully.
+2026-09-10 11:41:05,508 - INFO - Database connection closed.
+2026-09-10 12:11:16,826 - INFO - Utility functions tested successfully.
+2026-09-10 12:11:16,831 - INFO - test_function executed in 0.0035 seconds
+2026-09-10 12:14:13,888 - INFO - Utility functions tested successfully.
+2026-09-10 12:14:13,892 - INFO - test_function executed in 0.0040 seconds
+2026-09-10 12:17:25,897 - INFO - Utility functions tested successfully.
+2026-09-10 12:17:25,901 - INFO - test_function executed in 0.0035 seconds
+2026-09-10 12:18:33,809 - INFO - Attempting to connect to the database.
+2026-09-10 12:18:33,995 - ERROR - Database connection failed: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+2026-09-10 12:19:09,954 - INFO - Attempting to connect to the database.
+2026-09-10 12:19:10,029 - INFO - Database connection established successfully.
+2026-09-10 12:19:10,030 - INFO - Database connection closed.
+2026-09-10 12:41:22,959 - INFO - Loading file: data/sample.json
+2026-09-10 12:41:22,967 - INFO - File loaded successfully: data/sample.json
+2026-09-10 12:41:22,967 - INFO - Writing file: outputs/result.json
+2026-09-10 12:41:22,970 - INFO - File written successfully: outputs/result.json
+2026-09-10 12:41:22,970 - INFO - DataWriter operation completed.
+2026-09-10 12:41:22,970 - INFO - Attempting to connect to the database.
+2026-09-10 12:41:23,087 - INFO - Database connection established successfully.
+2026-09-10 12:41:23,088 - INFO - Database connection closed.
+2026-09-10 13:07:46,563 - INFO - Loading file: data/sample.json
+2026-09-10 13:07:46,564 - INFO - File loaded successfully: data/sample.json
+2026-09-10 13:07:46,564 - INFO - Writing file: outputs/result.json
+2026-09-10 13:07:46,566 - INFO - File written successfully: outputs/result.json
+2026-09-10 13:07:46,566 - INFO - DataWriter operation completed.
+2026-09-10 13:07:46,567 - INFO - Attempting to connect to the database.
+2026-09-10 13:07:46,679 - INFO - Database connection established successfully.
+2026-09-10 13:07:46,680 - INFO - Database connection closed.
