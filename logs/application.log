@@ -68,3 +68,11 @@
 2026-09-10 13:07:46,567 - INFO - Attempting to connect to the database.
 2026-09-10 13:07:46,679 - INFO - Database connection established successfully.
 2026-09-10 13:07:46,680 - INFO - Database connection closed.
+2026-09-10 13:21:32,423 - INFO - Loading file: data/sample.json
+2026-09-10 13:21:32,425 - INFO - File loaded successfully: data/sample.json
+2026-09-10 13:21:32,425 - INFO - Writing file: outputs/result.json
+2026-09-10 13:21:32,428 - INFO - File written successfully: outputs/result.json
+2026-09-10 13:21:32,428 - INFO - DataWriter operation completed.
+2026-09-10 13:21:32,429 - INFO - Attempting to connect to the database.
+2026-09-10 13:21:32,771 - INFO - Database connection established successfully.
+2026-09-10 13:21:32,772 - INFO - Database connection closed.
